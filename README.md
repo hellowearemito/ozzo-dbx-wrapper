@@ -1,4 +1,4 @@
-# ozzo-dbx-
+# ozzo-dbx-wrapper
 
 A wrapper interface based on ozzo-dbx.
 
