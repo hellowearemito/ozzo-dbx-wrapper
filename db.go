@@ -6,8 +6,6 @@ import (
 	dbx "github.com/go-ozzo/ozzo-dbx"
 )
 
-//go:generate counterfeiter -o fake_db.go -pkg ${GOPACKAGE} -fake-name FakeDB . DB
-
 // DB describes the database interface used by RequestScope.
 type DB interface {
 	dbx.Builder
